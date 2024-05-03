@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.katta{
+    width: 80%;
+    margin: auto;
+}
+.quti{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.div1{
+    padding: 60px;
+    text-align: center;
+    background-image: url( chef.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+.div2{
+    width: 31%;
+    margin-bottom: 40px;
+}
+.div4{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.chiziq{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.h1{
+    font-size: 60px;
+    color: aqua;
+}
+.h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.p1{
+    color:black;
+    font-size: 25px;
+}
+.p2{
+    font-size: 20px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0px 40px;
+}
+
+.rasm{
+    width: 100%;
+}
+.button{
+    border: none;
+    color: aliceblue;
+    background-color: tomato;
+    padding: 5px 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.v{
+    background-color: brown;
+}
+.c{
+    background-color: aqua;
+}
+.b{
+    background-color: greenyellow;
+}
+.btn{
+    border: 3px solid red;
+    color: red;
+    padding: 10px 30px;
+    background-color: white;
+    font-weight: bold;
+}
+.knopka{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+}
+.a:hover{
+    background-color: darkorange;
+}
+
+@media (max-width:1250px){
+    .a{
+        padding: 0px 20px;
+    }
+}
+@media (max-width:990px){
+    .a{
+        padding: 0px 10px;
+    }
+}
+@media (max-width:860px){
+    .a{
+        padding: 0px 5px;
+    }
+    .div2{
+        width: 48%;
+    }
+    .katta{
+        background-color: greenyellow;
+        width: 85%;
+    }
+}
+@media (max-width:800px){
+    .a{
+        padding: 0px 5px;
+    }
+}
+@media (max-width:550px){
+    .katta{
+        background-color: aqua;
+        width: 90%;
+    }
+    .div2{
+        width: 100%;
+    }
+    .h1{
+        color: red;
+    }
+    .c{
+        background-color: darkmagenta;
+    }
+}
